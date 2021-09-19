@@ -40,6 +40,8 @@ public class Main extends Application {
         Pendu pendu = new Pendu();
         
         root.getChildren().add(pendu);
+        
+
         primaryStage.setTitle("Le jeu du pendu");
         primaryStage.setScene(scene);
         primaryStage.setResizable(false);
