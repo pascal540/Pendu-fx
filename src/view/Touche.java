@@ -1,5 +1,8 @@
 package view;
 
-public class Touche {
+import javafx.scene.control.Button;
+
+public class Touche extends Button {
+    
     
 }

@@ -38,8 +38,12 @@ public class Main extends Application {
 
         Scene scene = new Scene(root, 800, 400, Color.AQUAMARINE);
         Pendu pendu = new Pendu();
+        Saisie saisie = new Saisie(pendu);
         
-        root.getChildren().add(pendu);
+        root.getChildren().addAll(pendu, saisie);
+         
+
+        new Clavier();
         
 
         primaryStage.setTitle("Le jeu du pendu");
