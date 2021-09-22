@@ -36,7 +36,7 @@ public class Main extends Application {
         Partie.getinstancePartie().nouvellePartie();// Creation d'une nouvelle partie
         Group root = new Group(); // creation d'un group
 
-        Scene scene = new Scene(root, 800, 400, Color.AQUAMARINE);
+        Scene scene = new Scene(root, 900, 400, Color.AQUAMARINE);
         Pendu pendu = new Pendu();
         Saisie saisie = new Saisie(pendu);
         
